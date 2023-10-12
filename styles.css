@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfitdisplay=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+
+.wrapper{
+    margin: 2rem auto;
+    width:30vh ;
+    background-color: var(--White);
+    /* border: 10px solid black; */
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: var(--Lightgray);
+}
+.qr-code img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    max-width:100%;
+    
+
+}
+.qr-content h4{
+    font-family: 'Outfit', sans-serif;
+    /* font-size: 1.5rem; */
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: var(--Darkblue);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.qr-content p{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Grayishblue);
+    margin-bottom: 1rem;
+    font-weight: 100;
+   
+}
+
+  @media only screen and (min-width: 768px) {
+    body{
+        
+    }
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
