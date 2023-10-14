@@ -14,11 +14,11 @@
 
 
 .wrapper{
-    margin: 2rem auto;
+    margin: 3rem auto;
     width:30vh ;
     background-color: var(--White);
     /* border: 10px solid black; */
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 body{
@@ -31,12 +31,12 @@ body{
 }
 .qr-code img{
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: rem;
     max-width:100%;
     
 
 }
-.qr-content h4{
+.qr-content h3{
     font-family: 'Outfit', sans-serif;
     /* font-size: 1.5rem; */
     font-weight: 700;
@@ -49,13 +49,15 @@ body{
     text-align: center;
     font-family: 'Outfit', sans-serif;
     color: var(--Grayishblue);
-    margin-bottom: 1rem;
-    font-weight: 100;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    font-size: 15px;
    
 }
 
   @media only screen and (min-width: 768px) {
     body{
+
         
     }
   }
