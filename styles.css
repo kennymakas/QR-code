@@ -14,7 +14,7 @@
 
 
 .wrapper{
-    margin: 2rem auto;
+    margin: 3rem auto;
     width:35vh ;
     background-color: var(--White);
     /* border: 10px solid black; */
@@ -42,14 +42,14 @@ body{
     font-weight: 700;
     line-height: 1.5rem;
     color: var(--Darkblue);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
 .qr-content p{
     text-align: center;
     font-family: 'Outfit', sans-serif;
     color: var(--Grayishblue);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     font-weight: 100;
    
 }
